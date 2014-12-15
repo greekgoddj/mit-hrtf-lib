@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C938AE9410B04161001438D8 /* mit_hrtf_lib.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9310B04161001438D8 /* mit_hrtf_lib.h */; };
+		C938AEA110B04177001438D8 /* mit_hrtf_diffuse_44100.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9610B04176001438D8 /* mit_hrtf_diffuse_44100.h */; };
+		C938AEA210B04177001438D8 /* mit_hrtf_diffuse_48000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9710B04176001438D8 /* mit_hrtf_diffuse_48000.h */; };
+		C938AEA310B04177001438D8 /* mit_hrtf_diffuse_88200.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9810B04176001438D8 /* mit_hrtf_diffuse_88200.h */; };
+		C938AEA410B04177001438D8 /* mit_hrtf_diffuse_96000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9910B04176001438D8 /* mit_hrtf_diffuse_96000.h */; };
+		C938AEA510B04177001438D8 /* mit_hrtf_filter.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9A10B04176001438D8 /* mit_hrtf_filter.h */; };
+		C938AEA610B04177001438D8 /* mit_hrtf_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = C938AE9B10B04176001438D8 /* mit_hrtf_lib.c */; };
+		C938AEA710B04177001438D8 /* mit_hrtf_normal_44100.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9D10B04177001438D8 /* mit_hrtf_normal_44100.h */; };
+		C938AEA810B04177001438D8 /* mit_hrtf_normal_48000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9E10B04177001438D8 /* mit_hrtf_normal_48000.h */; };
+		C938AEA910B04177001438D8 /* mit_hrtf_normal_88200.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9F10B04177001438D8 /* mit_hrtf_normal_88200.h */; };
+		C938AEAA10B04177001438D8 /* mit_hrtf_normal_96000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AEA010B04177001438D8 /* mit_hrtf_normal_96000.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C938AE9310B04161001438D8 /* mit_hrtf_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mit_hrtf_lib.h; path = ../include/mit_hrtf_lib.h; sourceTree = SOURCE_ROOT; };
+		C938AE9610B04176001438D8 /* mit_hrtf_diffuse_44100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_44100.h; sourceTree = "<group>"; };
+		C938AE9710B04176001438D8 /* mit_hrtf_diffuse_48000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_48000.h; sourceTree = "<group>"; };
+		C938AE9810B04176001438D8 /* mit_hrtf_diffuse_88200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_88200.h; sourceTree = "<group>"; };
+		C938AE9910B04176001438D8 /* mit_hrtf_diffuse_96000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_96000.h; sourceTree = "<group>"; };
+		C938AE9A10B04176001438D8 /* mit_hrtf_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mit_hrtf_filter.h; path = ../source/mit_hrtf_filter.h; sourceTree = SOURCE_ROOT; };
+		C938AE9B10B04176001438D8 /* mit_hrtf_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mit_hrtf_lib.c; path = ../source/mit_hrtf_lib.c; sourceTree = SOURCE_ROOT; };
+		C938AE9D10B04177001438D8 /* mit_hrtf_normal_44100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_44100.h; sourceTree = "<group>"; };
+		C938AE9E10B04177001438D8 /* mit_hrtf_normal_48000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_48000.h; sourceTree = "<group>"; };
+		C938AE9F10B04177001438D8 /* mit_hrtf_normal_88200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_88200.h; sourceTree = "<group>"; };
+		C938AEA010B04177001438D8 /* mit_hrtf_normal_96000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_96000.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libmit_hrtf_lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmit_hrtf_lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* mit_hrtf_lib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = mit_hrtf_lib;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C938AE9510B04176001438D8 /* diffuse */,
+				C938AE9A10B04176001438D8 /* mit_hrtf_filter.h */,
+				C938AE9B10B04176001438D8 /* mit_hrtf_lib.c */,
+				C938AE9C10B04177001438D8 /* normal */,
+				C938AE9310B04161001438D8 /* mit_hrtf_lib.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libmit_hrtf_lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		C938AE9510B04176001438D8 /* diffuse */ = {
+			isa = PBXGroup;
+			children = (
+				C938AE9610B04176001438D8 /* mit_hrtf_diffuse_44100.h */,
+				C938AE9710B04176001438D8 /* mit_hrtf_diffuse_48000.h */,
+				C938AE9810B04176001438D8 /* mit_hrtf_diffuse_88200.h */,
+				C938AE9910B04176001438D8 /* mit_hrtf_diffuse_96000.h */,
+			);
+			name = diffuse;
+			path = ../source/diffuse;
+			sourceTree = SOURCE_ROOT;
+		};
+		C938AE9C10B04177001438D8 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				C938AE9D10B04177001438D8 /* mit_hrtf_normal_44100.h */,
+				C938AE9E10B04177001438D8 /* mit_hrtf_normal_48000.h */,
+				C938AE9F10B04177001438D8 /* mit_hrtf_normal_88200.h */,
+				C938AEA010B04177001438D8 /* mit_hrtf_normal_96000.h */,
+			);
+			name = normal;
+			path = ../source/normal;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938AE9410B04161001438D8 /* mit_hrtf_lib.h in Headers */,
+				C938AEA110B04177001438D8 /* mit_hrtf_diffuse_44100.h in Headers */,
+				C938AEA210B04177001438D8 /* mit_hrtf_diffuse_48000.h in Headers */,
+				C938AEA310B04177001438D8 /* mit_hrtf_diffuse_88200.h in Headers */,
+				C938AEA410B04177001438D8 /* mit_hrtf_diffuse_96000.h in Headers */,
+				C938AEA510B04177001438D8 /* mit_hrtf_filter.h in Headers */,
+				C938AEA710B04177001438D8 /* mit_hrtf_normal_44100.h in Headers */,
+				C938AEA810B04177001438D8 /* mit_hrtf_normal_48000.h in Headers */,
+				C938AEA910B04177001438D8 /* mit_hrtf_normal_88200.h in Headers */,
+				C938AEAA10B04177001438D8 /* mit_hrtf_normal_96000.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* mit_hrtf_lib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "mit_hrtf_lib" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mit_hrtf_lib;
+			productName = mit_hrtf_lib;
+			productReference = D2AAC046055464E500DB518D /* libmit_hrtf_lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "mit_hrtf_lib" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* mit_hrtf_lib */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* mit_hrtf_lib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C938AEA610B04177001438D8 /* mit_hrtf_lib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = mit_hrtf_lib;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = mit_hrtf_lib;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "mit_hrtf_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "mit_hrtf_lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
