@@ -2,14 +2,14 @@
 /*#                                                                          #*/
 /*#  MIT HRTF C Library                                                      #*/
 /*#  Filter table for diffused set at 88200Hz                                #*/
-/*#  Copyright © 2007 Aristotel Digenis                                      #*/
+/*#  Copyright ï¿½ 2007 Aristotel Digenis                                      #*/
 /*#                                                                          #*/
 /*#  Filename:  mit_hrtf_diffuse_88200.h                                     #*/
 /*#  Version:   0.1                                                          #*/
 /*#  Date:      04/05/2007                                                   #*/
-/*#  Author(s): Aristotel Digenis (adigenis@users.sourceforge.net)           #*/
+/*#  Author(s): Aristotel Digenis                                            #*/
 /*#  Credit:    Bill Gardner and Keith Martin                                #*/
-/*#  Licence:   GNU Library or Lesser General Public License (LGPL)          #*/
+/*#  Licence:   MIT                                                          #*/
 /*#                                                                          #*/
 /*############################################################################*/
 

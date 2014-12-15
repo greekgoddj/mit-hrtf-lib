@@ -6,9 +6,9 @@
 /*#  Filename:  mit_hrtf_lib.c                                               #*/
 /*#  Version:   0.1                                                          #*/
 /*#  Date:      04/05/2007                                                   #*/
-/*#  Author(s): Aristotel Digenis (adigenis@users.sourceforge.net)           #*/
+/*#  Author(s): Aristotel Digenis                                            #*/
 /*#  Credit:    Bill Gardner and Keith Martin                                #*/
-/*#  Licence:   GNU Library or Lesser General Public License (LGPL)          #*/
+/*#  Licence:   MIT                                                          #*/
 /*#                                                                          #*/
 /*############################################################################*/
 
