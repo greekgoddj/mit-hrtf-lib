@@ -18,7 +18,21 @@
 		C938AEA810B04177001438D8 /* mit_hrtf_normal_48000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9E10B04177001438D8 /* mit_hrtf_normal_48000.h */; };
 		C938AEA910B04177001438D8 /* mit_hrtf_normal_88200.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AE9F10B04177001438D8 /* mit_hrtf_normal_88200.h */; };
 		C938AEAA10B04177001438D8 /* mit_hrtf_normal_96000.h in Headers */ = {isa = PBXBuildFile; fileRef = C938AEA010B04177001438D8 /* mit_hrtf_normal_96000.h */; };
+		C97981AF1A4C29D8004E8534 /* libmit_hrtf_lib.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AAC046055464E500DB518D /* libmit_hrtf_lib.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C97981AE1A4C295E004E8534 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../../../../library;
+			dstSubfolderSpec = 16;
+			files = (
+				C97981AF1A4C29D8004E8534 /* libmit_hrtf_lib.a in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C938AE9310B04161001438D8 /* mit_hrtf_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mit_hrtf_lib.h; path = ../include/mit_hrtf_lib.h; sourceTree = SOURCE_ROOT; };
@@ -137,6 +151,7 @@
 				D2AAC043055464E500DB518D /* Headers */,
 				D2AAC044055464E500DB518D /* Sources */,
 				D289987405E68DCB004EDB86 /* Frameworks */,
+				C97981AE1A4C295E004E8534 /* CopyFiles */,
 			);
 			buildRules = (
 			);
