@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mit_hrtf_lib", "mit_hrtf_lib.vcproj", "{5C5CEBE1-12F1-40D1-AEE8-052F10FF4634}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mit_hrtf_lib", "mit_hrtf_lib.vcxproj", "{5C5CEBE1-12F1-40D1-AEE8-052F10FF4634}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
