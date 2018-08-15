@@ -6,3 +6,5 @@ mac/DerivedData
 *.suo
 win/Debug/
 win/Release/
+*.user
+win/x64/
