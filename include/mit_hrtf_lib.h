@@ -67,7 +67,7 @@ unsigned int mit_hrtf_availability(int azimuth, int elevation, unsigned int samp
 	set, which is equalised for less accurate localization in exchange for
 	a flatter frequency response. The diffused set is better suited for music.
 
-	"psLeft" and "psRight" are pointers to buffers allocated (and later 
+	"pLeft" and "pRight" are pointers to buffers allocated (and later 
 	deallocated) by the user based on the return value of the 
 	"mit_hrtf_availability" function.
 	
@@ -75,7 +75,7 @@ unsigned int mit_hrtf_availability(int azimuth, int elevation, unsigned int samp
 	buffers. Returns 0 if the requested HRTF set is not available or if there
 	was an error.
 */
-unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerate, unsigned int diffused, short* psLeft, short* psRight);
+unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerate, unsigned int diffused, short* pLeft, short* pRight);
 
 
 #ifdef __cplusplus
