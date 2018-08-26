@@ -104,14 +104,14 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 	case 60:	azimuthIncrement = 180.f / (MIT_HRTF_AZI_POSITIONS_60 - 1);		break;	// 180 10
 	case 70:	azimuthIncrement = 180.f / (MIT_HRTF_AZI_POSITIONS_70 - 1);		break;	// 180 15
 	case 80:	azimuthIncrement = 180.f / (MIT_HRTF_AZI_POSITIONS_80 - 1);		break;	// 180 30
-	case 90:	azimuthIncrement = 0;												break;	// 0   1
+	case 90:	azimuthIncrement = 0;											break;	// 0   1
 	};
 
-	int switchLeftRight = 0;
+	unsigned int swapLeftRight = 0;
 	if(localAzimuth < 0)
 	{
 		localAzimuth = (int)((int)((-localAzimuth + azimuthIncrement / 2.f) / azimuthIncrement) * azimuthIncrement + 0.5f);
-		switchLeftRight = 1;
+		swapLeftRight = 1;
 	}
 	else
 	{
@@ -306,7 +306,7 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 	};
 
 	// Switch left and right ear if the azimuth is to the left of front centre (azimuth < 0)
-	if(switchLeftRight)
+	if(swapLeftRight)
 	{
 		const short* pTempTaps = pRightTaps;
 		pRightTaps = pLeftTaps;
