@@ -8,3 +8,4 @@ win/Debug/
 win/Release/
 *.user
 win/x64/
+mac/Build
