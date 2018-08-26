@@ -20,8 +20,6 @@
 extern "C" {
 #endif
 
-#include "../source/mit_hrtf_filter.h"
-
 
 
 /**
