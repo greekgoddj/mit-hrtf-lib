@@ -9,3 +9,4 @@ win/Release/
 *.user
 win/x64/
 mac/Build
+mac/library

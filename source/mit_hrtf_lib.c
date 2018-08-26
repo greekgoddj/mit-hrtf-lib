@@ -151,8 +151,13 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 	unsigned int totalTaps = 0;
 	switch(samplerate)
 	{
+        const mit_hrtf_filter_set_44* pFilter44 = 0;
+        const mit_hrtf_filter_set_48* pFilter48 = 0;
+        const mit_hrtf_filter_set_88* pFilter88 = 0;
+        const mit_hrtf_filter_set_96* pFilter96 = 0;
+            
 	case 44100:
-		const mit_hrtf_filter_set_44* pFilter44 = diffused ? &diffuse_44 : &normal_44;
+        pFilter44 = diffused ? &diffuse_44 : &normal_44;
 
 		switch(localElevation)
 		{	
@@ -190,7 +195,7 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 		totalTaps = MIT_HRTF_44_TAPS;
 		break;
 	case 48000:
-		const mit_hrtf_filter_set_48* pFilter48 = diffused ? &diffuse_48 : &normal_48;
+		pFilter48 = diffused ? &diffuse_48 : &normal_48;
 
 		switch(localElevation)
 		{	
@@ -228,7 +233,7 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 		totalTaps = MIT_HRTF_48_TAPS;
 		break;
 	case 88200:
-		const mit_hrtf_filter_set_88* pFilter88 = diffused ? &diffuse_88 : &normal_88;
+		pFilter88 = diffused ? &diffuse_88 : &normal_88;
 
 		switch(localElevation)
 		{	
@@ -266,7 +271,7 @@ unsigned int mit_hrtf_get(int* pAzimuth, int* pElevation, unsigned int samplerat
 		totalTaps = MIT_HRTF_88_TAPS;
 		break;
 	case 96000:
-		const mit_hrtf_filter_set_96* pFilter96 = diffused ? &diffuse_96 : &normal_96;
+		pFilter96 = diffused ? &diffuse_96 : &normal_96;
 
 		switch(localElevation)
 		{	
