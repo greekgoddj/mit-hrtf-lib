@@ -16,29 +16,24 @@ The original data available from the MIT website is stored in individual ".wav" 
 There are only two functions for use. Have a look at the example code below, or see mit_hrtf_lib.h for more information on their use.
 
 ```c
-int nAzimuth = 30;
-int nElevation = 0;
-int nTaps = 0;
-short* pLeft = 0;
-short* pRight = 0;
+int azimuth = 30;
+int elevation = 0;
 
-nTaps = mit_hrtf_availability(nAzimuth, nElevation, 44100, 0);
-
-if(nTaps)
+// Are there filters available for these options and how long is it?
+unsigned int numOfTaps = mit_hrtf_availability(azimuth, elevation, 44100, 0);
+if (numOfTaps)
 {
-	pLeft = malloc(nTaps * sizeof(short));
-	pRight = malloc(nTaps * sizeof(short));
+    // Allocate buffer to copy filters onto to
+    short* leftEar = (short*)malloc(numOfTaps * sizeof(short));
+    short* rightEar = (short*)malloc(numOfTaps * sizeof(short));
 
-	nTaps = mit_hrtf_get(&nAzimuth, &nElevation, 44100, 0, pLeft, pRight);
-}
-
-if(pLeft)
-{
-	free(pLeft);
-}
-if(pRight)
-{
-	free(pRight);
+    // Copy filters to new buffers 
+    numOfTaps = mit_hrtf_get(&azimuth, &elevation, 44100, 0, leftEar, rightEar);
+	
+    // Do as you wish with filters...
+    // Remember to free up buffers
+    free(leftEar);
+    free(rightEar);
 }
 ```
 
